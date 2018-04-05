@@ -1,3 +1,4 @@
+#! usr/bin/env python
 #!This is a Proof of Concept of a basic AES-CBC encryption scheme with 16 byte padding. The comments below will explain how it works.
 from Crypto.Cipher import AES
 #!These values are what we're trying to reverse-engineer in a padding oracle attack. For our purposes, they are arbitrary.
